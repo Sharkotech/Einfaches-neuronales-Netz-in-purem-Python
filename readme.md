@@ -59,4 +59,4 @@ Nach dem Training gibt das Programm Vorhersagen für verschiedene `x`-Werte aus 
 
 ### Ausführen
 ```bash
-python neuronales_netz.py
+python main.py
