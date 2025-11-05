@@ -22,18 +22,14 @@ Nach dem Training werden die Ergebnisse grafisch mit **matplotlib** dargestellt.
 
 1. **Aktivierungsfunktion:**  
    Sigmoid-Funktion  
-   \[
-   σ(z) = \frac{1}{1 + e^{-z}}
-   \]
-
+   ![sigmoid](https://latex.codecogs.com/png.image?\sigma(z)=\frac{1}{1+e^{-z}})
 2. **Struktur:**  
    Zwei Neuronen (`n1` und `n2`), die gemeinsam eine einfache logische Funktion modellieren.  
    Die Ausgabe wird durch Multiplikation der beiden Neuronen berechnet:  
-   \[
-   y_{pred} = n1 \times n2
-   \]
+   ![loss](https://latex.codecogs.com/png.image?Loss=(y_{true}-y_{pred})^{2})
 
-3. **Lernverfahren:**  
+
+4. **Lernverfahren:**  
    - Quadratischer Fehler  
    - Backpropagation  
    - Stochastische Gradientenabstiegs-Methode (SGD)  
